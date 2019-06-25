@@ -1,0 +1,28 @@
+{
+  "name": "express_crash",
+  "version": "1.0.0",
+  "description": "<!-- What is Express -->\r Express is a \"server-side\" or \"back-end\" framework. It is not comparable to client-side frameworks like React, Angular, or Vue.\r It can be used in combination with those frameworks to build full stack applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mweaber/express_crash.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mweaber/express_crash/issues"
+  },
+  "homepage": "https://github.com/mweaber/express_crash#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "nodemon": "^1.19.1",
+    "uuid": "^3.3.2"
+  }
+}
